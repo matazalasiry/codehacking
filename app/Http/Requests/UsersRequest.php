@@ -25,7 +25,7 @@ class UsersRequest extends Request
     {
         return [
 
-        'name'=>'required',
+        'category_id'=>'required',
         'email'=>'required',
         'role_id'=>'required',
         'is_active'=>'required',
